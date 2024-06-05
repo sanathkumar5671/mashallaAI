@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mashalla.ai',
+      title: 'Mashallah.ai',
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Mashalla.ai',
+          'Mashallah.ai',
           style: TextStyle(
             color: Colors.white, // Text color
             fontSize: 35, // Text size
