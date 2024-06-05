@@ -174,6 +174,7 @@ Padding(
     children: [
       Expanded(
         child: TextField(
+          key: Key('TextMessage'),
           controller: _controller,
           style: TextStyle(color: Colors.white), // Set the text color to white
           decoration: InputDecoration(
